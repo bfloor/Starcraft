@@ -1,0 +1,17 @@
+use "StarCraft connector.jar" as environment with
+	map="(2)Destination.scx",
+	own_race="Protoss",
+	starcraft_location="C:\\Starcraft",
+	debug="true",
+	auto_menu="Single_Player",
+	enemy_race="terran".
+	
+define protossProbe as agent {
+	use ProtossProbe.ProtossProbe as main module.
+	use ProtossProbe.ProtossProbeInit as init module.
+	use ProtossProbe.ProtossProbeEvent as event module.
+} 
+
+launchpolicy{
+	when type = protossProbe launch protossProbe.
+	}
