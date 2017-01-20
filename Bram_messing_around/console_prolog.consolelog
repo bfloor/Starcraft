@@ -1,0 +1,22 @@
+launching 'C:\Users\Bram\workspace\ExampleBotProtoss\ExampleBotProtoss.mas2g'.
+received a new entity named 'manager'.
+connecting agent 'tassadar' to entity 'manager'.
+Loaded client bridge library.
+Bridge: BWAPI Client launched!
+Bridge: Connecting...
+took 78 milliseconds to load the multi-agent system.
+waiting for the first agent to be launched...
+agent 'tassadar' has been started.
+Bridge: Waiting to enter match...
+Bridge: Starting match!
+0 | 6528 | 0 | 96131109
+1 | 4294967295 | 0 | 0
+2 | 4294967295 | 0 | 0
+3 | 4294967295 | 0 | 0
+4 | 4294967295 | 0 | 0
+5 | 4294967295 | 0 | 0
+6 | 4294967295 | 0 | 0
+7 | 4294967295 | 0 | 0
+Connected
+
+
