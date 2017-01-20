@@ -1,0 +1,752 @@
+launching 'C:\Users\Boaz\workspace\Protoos\Protoos.mas2g'.
+received a new entity named 'manager'.
+Loaded client bridge library.
+Bridge: BWAPI Client launched!
+Bridge: Connecting...
+connecting agent 'emptyManager' to entity 'manager'.
+agent 'emptyManager' has been started.
+took 46 milliseconds to load the multi-agent system.
+waiting for the first agent to be launched...
+Bridge: Waiting to enter match...
+Bridge: Starting match!
+received a new entity named 'protossProbe1'.
+connecting agent 'protossProbe' to entity 'protossProbe1'.
+received a new entity named 'protossProbe2'.
+agent 'protossProbe' has been started.
+connecting agent 'protossProbe_0' to entity 'protossProbe2'.
+received a new entity named 'protossProbe3'.
+ +++++++ Cycle 1 +++++++ 
+agent 'protossProbe_0' has been started.
+connecting agent 'protossProbe_1' to entity 'protossProbe3'.
+ +++++++ Cycle 1 +++++++ 
+'minerals(50) , gas(0) , supply(8,18)' has been inserted into the belief base 'this'.
+'minerals(50) , gas(0) , supply(8,18)' has been inserted into the belief base 'this'.
+'base(31,7,true,5)' has been inserted into the belief base 'this'.
+'base(31,7,true,5)' has been inserted into the belief base 'this'.
+'base(85,70,false,10)' has been inserted into the belief base 'this'.
+'base(7,28,false,4)' has been inserted into the belief base 'this'.
+'base(85,96,false,2)' has been inserted into the belief base 'this'.
+'base(63,19,false,6)' has been inserted into the belief base 'this'.
+'base(86,38,false,15)' has been inserted into the belief base 'this'.
+'base(6,119,false,1)' has been inserted into the belief base 'this'.
+'base(29,107,false,8)' has been inserted into the belief base 'this'.
+'base(85,70,false,10)' has been inserted into the belief base 'this'.
+'base(64,118,true,3)' has been inserted into the belief base 'this'.
+'base(7,28,false,4)' has been inserted into the belief base 'this'.
+'base(6,88,false,11)' has been inserted into the belief base 'this'.
+'base(85,96,false,2)' has been inserted into the belief base 'this'.
+'base(7,55,false,14)' has been inserted into the belief base 'this'.
+'base(63,19,false,6)' has been inserted into the belief base 'this'.
+'base(86,6,false,7)' has been inserted into the belief base 'this'.
+'constructionSite(39,0,false)' has been inserted into the belief base 'this'.
+received a new entity named 'protossProbe4'.
+'base(86,38,false,15)' has been inserted into the belief base 'this'.
+'constructionSite(36,15,false)' has been inserted into the belief base 'this'.
+'base(6,119,false,1)' has been inserted into the belief base 'this'.
+agent 'protossProbe_1' has been started.
+'constructionSite(39,12,false)' has been inserted into the belief base 'this'.
+'base(29,107,false,8)' has been inserted into the belief base 'this'.
+'constructionSite(42,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(30,18,false)' has been inserted into the belief base 'this'.
+'base(64,118,true,3)' has been inserted into the belief base 'this'.
+'constructionSite(33,12,false)' has been inserted into the belief base 'this'.
+'base(6,88,false,11)' has been inserted into the belief base 'this'.
+'constructionSite(36,9,false)' has been inserted into the belief base 'this'.
+'base(7,55,false,14)' has been inserted into the belief base 'this'.
+'constructionSite(39,3,false)' has been inserted into the belief base 'this'.
+'base(86,6,false,7)' has been inserted into the belief base 'this'.
+connecting agent 'protossProbe_2' to entity 'protossProbe4'.
+'constructionSite(42,9,false)' has been inserted into the belief base 'this'.
+received a new entity named 'protossNexus5'.
+'constructionSite(33,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,0,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,9,false)' has been inserted into the belief base 'this'.
+'condition([idle])' has been inserted into the belief base 'this'.
+agent 'protossProbe_2' has been started.
+ +++++++ Cycle 1 +++++++ 
+'constructionSite(36,15,false)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(50)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'constructionSite(39,12,false)' has been inserted into the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'constructionSite(42,6,false)' has been inserted into the belief base 'this'.
+connecting agent 'protossNexus' to entity 'protossNexus5'.
+ +++++++ Cycle 1 +++++++ 
+'constructionSite(30,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,3,false)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been inserted into the belief base 'this'.
+'constructionSite(42,9,false)' has been inserted into the belief base 'this'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'constructionSite(33,15,false)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+'constructionSite(36,12,false)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'constructionSite(39,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,9,false)' has been inserted into the belief base 'this'.
+'condition([idle])' has been inserted into the belief base 'this'.
+'minerals(50) , gas(0) , supply(8,18)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(50)' has been inserted into the belief base 'this'.
+'mineralField(19,1500,28,13)' has been inserted into the belief base 'this'.
+'mineralField(26,1500,27,6)' has been inserted into the belief base 'this'.
+'minerals(50) , gas(0) , supply(8,18)' has been inserted into the belief base 'this'.
+'mineralField(23,1500,26,7)' has been inserted into the belief base 'this'.
+'base(31,7,true,5)' has been inserted into the belief base 'this'.
+'mineralField(20,1500,27,12)' has been inserted into the belief base 'this'.
+'mineralField(11,1500,27,4)' has been inserted into the belief base 'this'.
+'base(31,7,true,5)' has been inserted into the belief base 'this'.
+'base(85,70,false,10)' has been inserted into the belief base 'this'.
+'mineralField(21,1500,26,8)' has been inserted into the belief base 'this'.
+'base(85,70,false,10)' has been inserted into the belief base 'this'.
+'base(7,28,false,4)' has been inserted into the belief base 'this'.
+'mineralField(24,1500,28,3)' has been inserted into the belief base 'this'.
+'base(7,28,false,4)' has been inserted into the belief base 'this'.
+'base(85,96,false,2)' has been inserted into the belief base 'this'.
+'mineralField(22,1500,27,9)' has been inserted into the belief base 'this'.
+'base(85,96,false,2)' has been inserted into the belief base 'this'.
+'base(63,19,false,6)' has been inserted into the belief base 'this'.
+'mineralField(25,1500,27,11)' has been inserted into the belief base 'this'.
+'base(63,19,false,6)' has been inserted into the belief base 'this'.
+'base(86,38,false,15)' has been inserted into the belief base 'this'.
+'base(86,38,false,15)' has been inserted into the belief base 'this'.
+'base(6,119,false,1)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'base(6,119,false,1)' has been inserted into the belief base 'this'.
+'base(29,107,false,8)' has been inserted into the belief base 'this'.
+'base(64,118,true,3)' has been inserted into the belief base 'this'.
+'base(29,107,false,8)' has been inserted into the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'workerActivity(2,idling)' has been inserted into the belief base 'this'.
+'base(6,88,false,11)' has been inserted into the belief base 'this'.
+'workerActivity(1,idling)' has been inserted into the belief base 'this'.
+agent 'protossNexus' has been started.
+'base(64,118,true,3)' has been inserted into the belief base 'this'.
+'base(6,88,false,11)' has been inserted into the belief base 'this'.
+'base(7,55,false,14)' has been inserted into the belief base 'this'.
+'base(86,6,false,7)' has been inserted into the belief base 'this'.
+'workerActivity(4,idling)' has been inserted into the belief base 'this'.
+'workerActivity(3,idling)' has been inserted into the belief base 'this'.
+'base(7,55,false,14)' has been inserted into the belief base 'this'.
+'constructionSite(39,0,false)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been inserted into the belief base 'this'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 1 +++++++ 
+'workerActivity(2,gatheringMinerals)' has been adopted into the goal base 'main'.
+'constructionSite(36,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(42,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(30,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,12,false)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'base(86,6,false,7)' has been inserted into the belief base 'this'.
+'constructionSite(39,0,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(42,6,false)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 2 +++++++ 
+'constructionSite(30,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,3,false)' has been inserted into the belief base 'this'.
+'constructionSite(42,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,9,false)' has been inserted into the belief base 'this'.
+'condition([idle])' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(50)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been inserted into the belief base 'this'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'constructionSite(36,9,false)' has been inserted into the belief base 'this'.
+'mineralField(19,1500,28,13)' has been inserted into the belief base 'this'.
+'mineralField(19,1500,28,13)' has been inserted into the belief base 'this'.
+'mineralField(26,1500,27,6)' has been inserted into the belief base 'this'.
+'mineralField(23,1500,26,7)' has been inserted into the belief base 'this'.
+'mineralField(20,1500,27,12)' has been inserted into the belief base 'this'.
+'mineralField(11,1500,27,4)' has been inserted into the belief base 'this'.
+'mineralField(21,1500,26,8)' has been inserted into the belief base 'this'.
+'mineralField(24,1500,28,3)' has been inserted into the belief base 'this'.
+'mineralField(22,1500,27,9)' has been inserted into the belief base 'this'.
+'mineralField(25,1500,27,11)' has been inserted into the belief base 'this'.
+'workerActivity(2,idling)' has been inserted into the belief base 'this'.
+'workerActivity(1,idling)' has been inserted into the belief base 'this'.
+'workerActivity(4,idling)' has been inserted into the belief base 'this'.
+'workerActivity(3,idling)' has been inserted into the belief base 'this'.
+'workerActivity(1,gatheringMinerals)' has been adopted into the goal base 'main'.
+'workerActivity(2,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 2 +++++++ 
+performed 'GenericPercepts'.
+'unitAmount('Protoss Probe',4)' has been inserted into the belief base 'this'.
+'self(5,'Protoss Nexus')' has been inserted into the belief base 'this'.
+'queueSize(0)' has been inserted into the belief base 'this'.
+'minerals(50) , gas(0) , supply(8,18)' has been inserted into the belief base 'this'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+'constructionSite(39,3,false)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(50)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'workerActivity(1,gatheringMinerals)' has been adopted into the goal base 'main'.
+'mineralField(26,1500,27,6)' has been inserted into the belief base 'this'.
+'constructionSite(42,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,18,false)' has been inserted into the belief base 'this'.
+'mineralField(23,1500,26,7)' has been inserted into the belief base 'this'.
+'constructionSite(39,9,false)' has been inserted into the belief base 'this'.
+'mineralField(20,1500,27,12)' has been inserted into the belief base 'this'.
+'condition([idle])' has been inserted into the belief base 'this'.
+'mineralField(11,1500,27,4)' has been inserted into the belief base 'this'.
+'mineralField(21,1500,26,8)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(50)' has been inserted into the belief base 'this'.
+'mineralField(24,1500,28,3)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'mineralField(22,1500,27,9)' has been inserted into the belief base 'this'.
+'mineralField(25,1500,27,11)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been inserted into the belief base 'this'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'friendly('Terran Marine',8,0,0)' has been inserted into the belief base 'this'.
+'friendly('Protoss Probe',3,20,20)' has been inserted into the belief base 'this'.
+'mineralField(19,1500,28,13)' has been inserted into the belief base 'this'.
+'friendly('Terran Marine',7,0,0)' has been inserted into the belief base 'this'.
+'mineralField(26,1500,27,6)' has been inserted into the belief base 'this'.
+'friendly('Protoss Probe',2,20,20)' has been inserted into the belief base 'this'.
+'friendly('Terran Marine',10,0,0)' has been inserted into the belief base 'this'.
+'mineralField(23,1500,26,7)' has been inserted into the belief base 'this'.
+'mineralField(20,1500,27,12)' has been inserted into the belief base 'this'.
+'mineralField(11,1500,27,4)' has been inserted into the belief base 'this'.
+'mineralField(21,1500,26,8)' has been inserted into the belief base 'this'.
+'mineralField(24,1500,28,3)' has been inserted into the belief base 'this'.
+'mineralField(22,1500,27,9)' has been inserted into the belief base 'this'.
+'mineralField(25,1500,27,11)' has been inserted into the belief base 'this'.
+'workerActivity(2,idling)' has been inserted into the belief base 'this'.
+'workerActivity(1,idling)' has been inserted into the belief base 'this'.
+'workerActivity(4,idling)' has been inserted into the belief base 'this'.
+'workerActivity(3,idling)' has been inserted into the belief base 'this'.
+'workerActivity(2,gatheringMinerals)' has been adopted into the goal base 'main'.
+'workerActivity(2,idling)' has been inserted into the belief base 'this'.
+'workerActivity(1,idling)' has been inserted into the belief base 'this'.
+'workerActivity(4,idling)' has been inserted into the belief base 'this'.
+'workerActivity(3,idling)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 2 +++++++ 
+'workerActivity(2,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 2 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',1,20,20)' has been inserted into the belief base 'this'.
+'workerActivity(1,gatheringMinerals)' has been adopted into the goal base 'main'.
+'friendly('Terran Marine',6,0,0)' has been inserted into the belief base 'this'.
+'friendly('Terran Marine',9,0,0)' has been inserted into the belief base 'this'.
+'friendly('Protoss Probe',4,20,20)' has been inserted into the belief base 'this'.
+'workerActivity(1,gatheringMinerals)' has been adopted into the goal base 'main'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+'supply(8,18)' has been inserted into the belief base 'this'.
+'queueSize(0)' has been deleted from the belief base 'this'.
+'queueSize(0)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',8)' has been adopted into the goal base 'main'.
+post-condition 'true' has been inserted into the belief base 'this'.
+performed 'train('Protoss Probe')'.
+ +++++++ Cycle 2 +++++++ 
+performed 'GenericPercepts'.
+ +++++++ Cycle 3 +++++++ 
+ +++++++ Cycle 3 +++++++ 
+ +++++++ Cycle 3 +++++++ 
+performed 'GenericPercepts'.
+ +++++++ Cycle 3 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'workerActivity(4,gatheringMinerals)' has been adopted into the goal base 'main'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+post-condition 'true' has been inserted into the belief base 'this'.
+ +++++++ Cycle 4 +++++++ 
+performed 'train('Protoss Probe')'.
+'workerActivity(4,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 3 +++++++ 
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+'workerActivity(4,gatheringMinerals)' has been adopted into the goal base 'main'.
+'workerActivity(4,gatheringMinerals)' has been adopted into the goal base 'main'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 4 +++++++ 
+ +++++++ Cycle 4 +++++++ 
+ +++++++ Cycle 4 +++++++ 
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(0)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(0)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'gas(0)' has been deleted from the belief base 'this'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'supply(10,18)' has been inserted into the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+'minerals(0)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'workerActivity(3,gatheringMinerals)' has been adopted into the goal base 'main'.
+performed 'GenericPercepts'.
+post-condition 'true' has been inserted into the belief base 'this'.
+performed 'train('Protoss Probe')'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+'supply(10,18)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 4 +++++++ 
+'gas(0)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+'supply(10,18)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 5 +++++++ 
+'minerals(50)' has been deleted from the belief base 'this'.
+'minerals(0)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'minerals(50)' has been deleted from the belief base 'this'.
+'workerActivity(3,gatheringMinerals)' has been adopted into the goal base 'main'.
+'gas(0)' has been inserted into the belief base 'this'.
+'minerals(0)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'workerActivity(3,gatheringMinerals)' has been adopted into the goal base 'main'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'workerActivity(3,gatheringMinerals)' has been adopted into the goal base 'main'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+ +++++++ Cycle 5 +++++++ 
+ +++++++ Cycle 5 +++++++ 
+'supply(10,18)' has been inserted into the belief base 'this'.
+'supply(8,18)' has been deleted from the belief base 'this'.
+'supply(10,18)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 5 +++++++ 
+'queueSize(0)' has been deleted from the belief base 'this'.
+'queueSize(1)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 5 +++++++ 
+performed 'GenericPercepts'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 6 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 6 +++++++ 
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 6 +++++++ 
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 7 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 6 +++++++ 
+ +++++++ Cycle 7 +++++++ 
+ +++++++ Cycle 7 +++++++ 
+'friendly('Protoss Probe',154,2,20)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been deleted from the belief base 'this'.
+'unitAmount('Protoss Probe',4)' has been deleted from the belief base 'this'.
+ +++++++ Cycle 8 +++++++ 
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'unitAmount('Protoss Probe',4)' has been deleted from the belief base 'this'.
+ +++++++ Cycle 6 +++++++ 
+performed 'GenericPercepts'.
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'unitAmount('Protoss Probe',4)' has been deleted from the belief base 'this'.
+'workerActivity(154,idling)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'workerActivity(154,idling)' has been inserted into the belief base 'this'.
+'workerActivity(154,idling)' has been inserted into the belief base 'this'.
+'workerActivity(154,gatheringMinerals)' has been adopted into the goal base 'main'.
+'workerActivity(154,gatheringMinerals)' has been adopted into the goal base 'main'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+'workerActivity(154,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 7 +++++++ 
+ +++++++ Cycle 7 +++++++ 
+ +++++++ Cycle 8 +++++++ 
+ +++++++ Cycle 8 +++++++ 
+ +++++++ Cycle 9 +++++++ 
+'friendly('Protoss Probe',154,3,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,2,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'unitAmount('Protoss Probe',4)' has been deleted from the belief base 'this'.
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'workerActivity(154,idling)' has been inserted into the belief base 'this'.
+'workerActivity(154,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 8 +++++++ 
+performed 'GenericPercepts'.
+ +++++++ Cycle 8 +++++++ 
+ +++++++ Cycle 9 +++++++ 
+ +++++++ Cycle 9 +++++++ 
+ +++++++ Cycle 9 +++++++ 
+ +++++++ Cycle 10 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,4,20)' has been inserted into the belief base 'this'.
+'friendly('Protoss Probe',154,3,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 10 +++++++ 
+ +++++++ Cycle 10 +++++++ 
+ +++++++ Cycle 11 +++++++ 
+ +++++++ Cycle 10 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 9 +++++++ 
+'friendly('Protoss Probe',154,5,20)' has been inserted into the belief base 'this'.
+'friendly('Protoss Probe',154,4,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 10 +++++++ 
+ +++++++ Cycle 11 +++++++ 
+ +++++++ Cycle 12 +++++++ 
+ +++++++ Cycle 11 +++++++ 
+ +++++++ Cycle 11 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,6,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,5,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 11 +++++++ 
+ +++++++ Cycle 13 +++++++ 
+ +++++++ Cycle 12 +++++++ 
+ +++++++ Cycle 12 +++++++ 
+ +++++++ Cycle 12 +++++++ 
+'friendly('Protoss Probe',154,7,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,6,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 12 +++++++ 
+ +++++++ Cycle 13 +++++++ 
+ +++++++ Cycle 13 +++++++ 
+ +++++++ Cycle 13 +++++++ 
+ +++++++ Cycle 14 +++++++ 
+'friendly('Protoss Probe',154,8,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,7,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 13 +++++++ 
+ +++++++ Cycle 14 +++++++ 
+ +++++++ Cycle 14 +++++++ 
+ +++++++ Cycle 14 +++++++ 
+ +++++++ Cycle 15 +++++++ 
+'friendly('Protoss Probe',154,9,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,8,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 15 +++++++ 
+ +++++++ Cycle 14 +++++++ 
+ +++++++ Cycle 16 +++++++ 
+ +++++++ Cycle 15 +++++++ 
+ +++++++ Cycle 15 +++++++ 
+'friendly('Protoss Probe',154,10,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,9,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 15 +++++++ 
+ +++++++ Cycle 16 +++++++ 
+ +++++++ Cycle 16 +++++++ 
+ +++++++ Cycle 16 +++++++ 
+ +++++++ Cycle 17 +++++++ 
+'friendly('Protoss Probe',154,11,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,10,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 16 +++++++ 
+ +++++++ Cycle 17 +++++++ 
+ +++++++ Cycle 18 +++++++ 
+ +++++++ Cycle 17 +++++++ 
+ +++++++ Cycle 17 +++++++ 
+'friendly('Protoss Probe',154,12,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,11,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 17 +++++++ 
+ +++++++ Cycle 18 +++++++ 
+ +++++++ Cycle 18 +++++++ 
+ +++++++ Cycle 19 +++++++ 
+ +++++++ Cycle 18 +++++++ 
+'friendly('Protoss Probe',154,13,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,12,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 19 +++++++ 
+ +++++++ Cycle 18 +++++++ 
+ +++++++ Cycle 20 +++++++ 
+ +++++++ Cycle 19 +++++++ 
+ +++++++ Cycle 19 +++++++ 
+'friendly('Protoss Probe',154,14,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,13,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 19 +++++++ 
+ +++++++ Cycle 21 +++++++ 
+ +++++++ Cycle 20 +++++++ 
+ +++++++ Cycle 20 +++++++ 
+ +++++++ Cycle 20 +++++++ 
+'friendly('Protoss Probe',154,15,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,14,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 20 +++++++ 
+ +++++++ Cycle 22 +++++++ 
+ +++++++ Cycle 21 +++++++ 
+ +++++++ Cycle 21 +++++++ 
+ +++++++ Cycle 21 +++++++ 
+'friendly('Protoss Probe',154,16,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,15,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 21 +++++++ 
+ +++++++ Cycle 22 +++++++ 
+ +++++++ Cycle 23 +++++++ 
+ +++++++ Cycle 22 +++++++ 
+ +++++++ Cycle 22 +++++++ 
+'friendly('Protoss Probe',154,17,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,16,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 22 +++++++ 
+ +++++++ Cycle 23 +++++++ 
+ +++++++ Cycle 24 +++++++ 
+ +++++++ Cycle 23 +++++++ 
+ +++++++ Cycle 23 +++++++ 
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,18,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,17,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 23 +++++++ 
+ +++++++ Cycle 24 +++++++ 
+ +++++++ Cycle 24 +++++++ 
+ +++++++ Cycle 24 +++++++ 
+ +++++++ Cycle 25 +++++++ 
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,19,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,18,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 26 +++++++ 
+ +++++++ Cycle 24 +++++++ 
+ +++++++ Cycle 25 +++++++ 
+ +++++++ Cycle 25 +++++++ 
+ +++++++ Cycle 25 +++++++ 
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,20,20)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'friendly('Protoss Probe',154,19,20)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 25 +++++++ 
+received a new entity named 'protossProbe154'.
+ +++++++ Cycle 26 +++++++ 
+ +++++++ Cycle 26 +++++++ 
+ +++++++ Cycle 27 +++++++ 
+ +++++++ Cycle 26 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'queueSize(1)' has been deleted from the belief base 'this'.
+performed 'GenericPercepts'.
+'queueSize(0)' has been inserted into the belief base 'this'.
+connecting agent 'protossProbe_3' to entity 'protossProbe154'.
+ +++++++ Cycle 26 +++++++ 
+agent 'protossProbe_3' has been started.
+ +++++++ Cycle 1 +++++++ 
+performed 'GenericPercepts'.
+'minerals(0) , gas(0) , supply(10,18)' has been inserted into the belief base 'this'.
+'base(31,7,true,5)' has been inserted into the belief base 'this'.
+'base(85,70,false,10)' has been inserted into the belief base 'this'.
+'base(7,28,false,4)' has been inserted into the belief base 'this'.
+'base(85,96,false,2)' has been inserted into the belief base 'this'.
+'base(63,19,false,6)' has been inserted into the belief base 'this'.
+'base(86,38,false,15)' has been inserted into the belief base 'this'.
+'base(6,119,false,1)' has been inserted into the belief base 'this'.
+'base(29,107,false,8)' has been inserted into the belief base 'this'.
+'base(64,118,true,3)' has been inserted into the belief base 'this'.
+'base(6,88,false,11)' has been inserted into the belief base 'this'.
+'base(7,55,false,14)' has been inserted into the belief base 'this'.
+'base(86,6,false,7)' has been inserted into the belief base 'this'.
+'constructionSite(39,0,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(42,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(30,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,3,false)' has been inserted into the belief base 'this'.
+'constructionSite(42,9,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,15,false)' has been inserted into the belief base 'this'.
+'constructionSite(36,12,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,6,false)' has been inserted into the belief base 'this'.
+'constructionSite(33,18,false)' has been inserted into the belief base 'this'.
+'constructionSite(39,9,false)' has been inserted into the belief base 'this'.
+'condition([idle])' has been inserted into the belief base 'this'.
+'minerals(0)' has been deleted from the belief base 'this'.
+'minerals(0)' has been inserted into the belief base 'this'.
+'gas(0)' has been deleted from the belief base 'this'.
+'gas(0)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Probe',5)' has been inserted into the belief base 'this'.
+'unitAmount('Terran Marine',5)' has been inserted into the belief base 'this'.
+'unitAmount('Protoss Nexus',1)' has been inserted into the belief base 'this'.
+performed 'GenericPercepts'.
+'mineralField(19,1500,28,13)' has been inserted into the belief base 'this'.
+'mineralField(26,1500,27,6)' has been inserted into the belief base 'this'.
+'mineralField(23,1500,26,7)' has been inserted into the belief base 'this'.
+'mineralField(20,1500,27,12)' has been inserted into the belief base 'this'.
+'mineralField(11,1500,27,4)' has been inserted into the belief base 'this'.
+'mineralField(21,1500,26,8)' has been inserted into the belief base 'this'.
+'mineralField(24,1500,28,3)' has been inserted into the belief base 'this'.
+'mineralField(22,1500,27,9)' has been inserted into the belief base 'this'.
+'mineralField(25,1500,27,11)' has been inserted into the belief base 'this'.
+'workerActivity(2,idling)' has been inserted into the belief base 'this'.
+'workerActivity(1,idling)' has been inserted into the belief base 'this'.
+'workerActivity(154,idling)' has been inserted into the belief base 'this'.
+'workerActivity(4,idling)' has been inserted into the belief base 'this'.
+'workerActivity(3,idling)' has been inserted into the belief base 'this'.
+'workerActivity(2,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 2 +++++++ 
+ +++++++ Cycle 27 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 28 +++++++ 
+'workerActivity(1,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 3 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+'workerActivity(154,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 29 +++++++ 
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 4 +++++++ 
+performed 'GenericPercepts'.
+performed 'GenericPercepts'.
+ +++++++ Cycle 30 +++++++ 
+performed 'GenericPercepts'.
+'workerActivity(4,gatheringMinerals)' has been adopted into the goal base 'main'.
+ +++++++ Cycle 5 +++++++ 
+performed 'GenericPercepts'.
+'workerActivity(3,gatheringMinerals)' has been adopted into the goal base 'main'.
+'nexusPosition(33,8)' has been inserted into the belief base 'this'.
+ +++++++ Cycle 6 +++++++ 
+performed 'GenericPercepts'.
+entity named 'protossProbe1' has been deleted, stopping associated agents [protossProbe].
+entity named 'protossProbe2' has been deleted, stopping associated agents [protossProbe_0].
+entity named 'protossProbe3' has been deleted, stopping associated agents [protossProbe_1].
+entity named 'protossProbe4' has been deleted, stopping associated agents [protossProbe_2].
+entity named 'protossNexus5' has been deleted, stopping associated agents [protossNexus].
+entity named 'protossProbe154' has been deleted, stopping associated agents [protossProbe_3].
+agent 'protossProbe' was killed externally.
+agent 'protossProbe_3' was killed externally.
+agent 'protossProbe_2' was killed externally.
+Bridge: Match ended
+Bridge: Waiting to enter match...
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION[thread 20820 also had an error] (0xc0000005)
+ at pc=0x000000005b51d42f, pid=21464, tid=0x00000000000039b0
+#
+[thread 19640 also had an error]
+# JRE version: Java(TM) SE Runtime Environment (8.0_102-b14) (build 1.8.0_102-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.102-b14 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [swipl.dll+0x5d42f]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# An error report file with more information is saved as:
+# C:\Users\Boaz\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Eclipse\hs_err_pid21464.log
+agent 'protossProbe_1' was killed externally.
+[thread 19756 also had an error]
+agent 'protossProbe_0' was killed externally.
+agent 'protossNexus' was killed externally.
+[thread 18192 also had an error]
+[thread 18284 also had an error]
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+0 | 13536 | 0 | 18621652
+1 | 4294967295 | 0 | 0
+2 | 4294967295 | 0 | 0
+3 | 4294967295 | 0 | 0
+4 | 4294967295 | 0 | 0
+5 | 4294967295 | 0 | 0
+6 | 4294967295 | 0 | 0
+7 | 4294967295 | 0 | 0
+Connected
+Disconnected

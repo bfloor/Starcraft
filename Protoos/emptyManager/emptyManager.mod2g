@@ -1,0 +1,11 @@
+use emptyManager as knowledge.
+order = linearall.
+
+module emptyManager {
+	%%%%%%%%%%%%%%% --------------------------------------- Messaging --------------------------------------- %%%%%%%%%%%%%%%
+	
+	
+	% When nexusPosition received, insert it to knowledge base
+	if (_).sent:(nexusPosition(X, Y)) then insert(nexusPosition(X, Y)).
+	
+}

@@ -29,29 +29,30 @@ module ProtossProbeEvent {
 	%%%%%%%%%%%%%%% --------------------------------------- GOALS --------------------------------------- %%%%%%%%%%%%%%%
 	
 	% If there is no Pylon yet and 8 probes already, create one
-	if bel(builder, not(friendly("Protoss Pylon", _, _, _))) then adopt(unitAmount("Protoss Pylon", 1)).
+	% if bel(builder, not(friendly("Protoss Pylon", _, _, _))) then adopt(unitAmount("Protoss Pylon", 1)).
 	
 	% If no Gateways yet, build two of them	
-	if bel(builder, not(unitAmount("Protoss Gateway",_)), unitAmount("Protoss Pylon",_)) then adopt(unitAmount("Protoss Gateway", 2)).
-	
+	% if bel(builder, not(unitAmount("Protoss Gateway",_)), unitAmount("Protoss Pylon",_)) then adopt(unitAmount("Protoss Gateway", 2)).
+	 
 	% Build pylons for supply
-	if bel(builder, unitAmount("Protoss Pylon", N), M is N +1, unitAmount("Protoss Gateway", 2), supply(CS, TS), TS - CS < 8) 
-	then adopt(unitAmount("Protoss Pylon", M)).
+	% if bel(builder, unitAmount("Protoss Pylon", N), M is N +1, unitAmount("Protoss Gateway", 2), supply(CS, TS), TS - CS < 8) 
+	% then adopt(unitAmount("Protoss Pylon", M)).
 	
 	% If the worker is not busy yet, start gathering minerals
-	if bel(not(busy), not(builder), self(Id, _)) then adopt(workerActivity(Id, gatheringMinerals)).
+	% if bel(not(busy), not(builder), self(Id, _)) then adopt(workerActivity(Id, gatheringMinerals)).
+	if bel(workerActivity(Id,idling)) then adopt(workerActivity(Id, gatheringMinerals)).
 	
 	% If builder then only gather when building work is over
-	if bel(builder, self(Id, _), (not(unitAmount("Protoss Pylon", _)) ; unitAmount("Protoss Gateway", 2))) 
-	then adopt(workerActivity(Id, gatheringMinerals)).
+	% if bel(builder, self(Id, _), (not(unitAmount("Protoss Pylon", _)) ; unitAmount("Protoss Gateway", 2))) 
+	% then adopt(workerActivity(Id, gatheringMinerals)).
 				
 	%%%%%%%%%%%%%%% --------------------------------------- Messaging --------------------------------------- %%%%%%%%%%%%%%%
 	
 	% If told to be builder, insert builder in knowledge base	
-	if (_).sent(builder) then insert(builder).
+	% if (_).sent(builder) then insert(builder).
 	
 	% If don't know nexus location yet, start asking tassadar
-	if not(bel(nexusPosition(_, _))) then (tassadar).send?(nexusPosition).
+	if not(bel(nexusPosition(_, _))) then (protossNexus).send?(nexusPosition).
 	
 	% If nexus location is told, insert it into the knowledge base
 	if (_).sent:(nexusPosition(X, Y)) then insert(nexusPosition(X, Y)).
