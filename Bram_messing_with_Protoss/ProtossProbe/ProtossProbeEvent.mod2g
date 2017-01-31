@@ -6,7 +6,37 @@ module ProtossProbeEvent {
 	%%%%%%%%%%%%%%% --------------------------------------- Percepts --------------------------------------- %%%%%%%%%%%%%%%
 		
 	% The generic percepts most units use
-	if true then GenericPercepts.	
+	if true then GenericPercepts.
+	
+	%forall bel(friendly("Protoss Probe",probeId,_,_),self(Id,_)) do print("Friendly unit with ID " + probeId).
+	
+	%if bel(self(MyId,_)) then print("I found myself" + MyId).
+	
+	% if bel(workerActivity(Id, gatheringGas), not(testMineVespene)) then adopt(workerActivity(Id,gatheringMinerals)) + print ("Assimilator is full.").
+	% if bel(enoughAssimilators, assimilator(_), self(Id,_), shouldMineVespene) then adopt(workerActivity(Id, gatheringGas)) + print("Goal is to mine gas.").
+	
+	if bel(shouldMineVespene, self(MyId,_)) then print("Need to get gas").
+	
+	if bel(shouldMineVespene, self(MyId,_)), not(bel(friendly("Protoss Probe", Id,_,_), MyId < Id))
+		then adopt(workerActivity(MyId, gatheringGas)) + print("Goal is to mine gas.").
+	
+	
+	% If there are friendly probes in believe state and I have the lowest Id, I am the builder
+	if bel(self(MyId,_), friendly("Protoss Probe",_,_,_), not(builder)), not(bel(friendly("Protoss Probe",Id,_,_), MyId>Id ))
+		then insert(builder) + print("I believe I am the lowest ranked probe " + MyId).
+	if bel(builder, friendly("Protoss Probe", Id,_,_), self(MyId,_), Id < MyId) then delete(builder) + print("I am no longer the builder.").
+	
+	%forall percept(unit(true,"Protoss Probe",Id,_,_,_)), bel(self(MyId,_), MyId > Id) do print(MyId + "I sense lower ranked probe with ID ." +Id). 
+	
+	% Update probestatus
+	if percept(workerActivity(Id,Z)), bel(self(Id,_), probeStatus(Id,X,Y), X\=Z) then delete(probeStatus(Id,X,Y))+insert(probeStatus(Id,Z,Y)) + print("Updated my status believe").
+	if bel(builder, probeStatus(Id,X,false)) then delete(probeStatus(Id,X,false)) + insert(probeStatus(Id,X,true)).
+	
+	
+	if bel(self(Id,_)), percept(workerActivity(Id,X)) then print("I am doing: " + X).
+	
+	%Update my believe about what I'm doing
+	if percept(workerActivity(Id,Y)), bel(self(Id,_), workerActivity(Id,X), X\=Y) then delete(workerActivity(Id,X)) + insert(workerActivity(Id,Y)).
 	
 	% The handling of the conditions 
 	if percept(status(_,_,_,NewCond,_,_)), bel(condition(OldCond), NewCond \= OldCond) then delete(condition(OldCond)) + insert(condition(NewCond)).
@@ -27,31 +57,63 @@ module ProtossProbeEvent {
 	forall bel(workerActivity(ID,ACT)),not(percept(workerActivity(ID,ACT))) do delete(workerActivity(ID,ACT)).
 				
 	%%%%%%%%%%%%%%% --------------------------------------- GOALS --------------------------------------- %%%%%%%%%%%%%%%
-	
 	% If there is no Pylon yet and 8 probes already, create one
-	% if bel(builder, not(friendly("Protoss Pylon", _, _, _))) then adopt(unitAmount("Protoss Pylon", 1)).
+	if bel(builder, not(friendly("Protoss Pylon", _, _, _)))
+		then adopt(unitAmount("Protoss Pylon", 1)).
 	
 	% If no Gateways yet, build two of them	
-	% if bel(builder, not(unitAmount("Protoss Gateway",_)), unitAmount("Protoss Pylon",_)) then adopt(unitAmount("Protoss Gateway", 2)).
+	if bel(builder, not(unitAmount("Protoss Gateway",_)), unitAmount("Protoss Pylon",_))
+		then adopt(unitAmount("Protoss Gateway", 2)).
+	
+		% If enough probes, then build assimilator
+	if bel(builder, not(unitAmount("Protoss Assimilator",_)), unitAmount("Protoss Probe", 6))
+		then adopt(unitAmount("Protoss Assimilator", 1)).
 	 
 	% Build pylons for supply
-	% if bel(builder, unitAmount("Protoss Pylon", N), M is N +1, unitAmount("Protoss Gateway", 2), supply(CS, TS), TS - CS < 8) 
-	% then adopt(unitAmount("Protoss Pylon", M)).
+	if bel(builder, unitAmount("Protoss Pylon", N), M is N +1, unitAmount("Protoss Gateway", 2), supply(CS, TS), TS - CS < 8) 
+		then adopt(unitAmount("Protoss Pylon", M)).
 	
 	% If the worker is not busy yet, start gathering minerals
-	% if bel(not(busy), not(builder), self(Id, _)) then adopt(workerActivity(Id, gatheringMinerals)).
-	if bel(workerActivity(Id,idling)) then adopt(workerActivity(Id, gatheringMinerals)).
+	%if bel(not(busy), not(builder), self(Id, _))
+	%	then adopt(workerActivity(Id, gatheringMinerals)).
+	
+	% when idling, start mining minerals
+	if bel(workerActivity(Id,idling), self(Id,_))
+		then adopt(workerActivity(Id, gatheringMinerals)).
 	
 	% If builder then only gather when building work is over
-	% if bel(builder, self(Id, _), (not(unitAmount("Protoss Pylon", _)) ; unitAmount("Protoss Gateway", 2))) 
-	% then adopt(workerActivity(Id, gatheringMinerals)).
+	if bel(builder, self(Id, _), (not(unitAmount("Protoss Pylon", _)) ; unitAmount("Protoss Gateway", 2))) 
+		then adopt(workerActivity(Id, gatheringMinerals)).
+		
+		
+		% The handling of constructed Assimilator locations
+	forall percept(unit(true, Type,Id,Health,Shields,IsUnderConstruction), Type = "Protoss Assimilator", IsUnderConstruction \=[beingConstructed]), not(bel(assimilator(Id)))
+		%do print("I believe there is an Assimilator with ID " + Id) + 
+		do insert(assimilator(Id)).
 				
 	%%%%%%%%%%%%%%% --------------------------------------- Messaging --------------------------------------- %%%%%%%%%%%%%%%
+	
+	% Ask everyone the status. Make sure probe replies. Handle returned messages. 
+%	if true then (protossProbe).send?(probeStatus) + print("Queried what ya all doing?").
+%	forall (Name).sent?(probeStatus), bel(probeStatus(Id,X,Y)) do (Name).send:(probeStatus(Id,X,Y)) + print("Sent " + Id + X + Y).
+%	forall (_).sent:(probeStatus(Id,X,Y)) do 
+%		{if bel(probeStatus(Id,I,J)), not(bel(X=I,Y=J)) then delete(probeStatus(Id,I,J)) + insert(probeStatus(Id,X,Y))+ print("Updated believe probeStatus from" + Id + X + Y).
+%		if not(bel(probeStatus(Id,_,_))) then insert(probeStatus(Id,X,Y))+ print("Inserted believe probeStatus from" + Id + X + Y).
+%		if true then print("Message received from" + Id + X + Y).}
 	
 	% If told to be builder, insert builder in knowledge base	
 	% if (_).sent(builder) then insert(builder).
 	
-	% If don't know nexus location yet, start asking tassadar
+	% If I am not the builder, ask who is it
+	%if bel(not(builder)) then (protossProbe).send?(builder) + print("Queried who is builder.") + insert(builder).
+	
+	% Check for messages about being builder
+	%forall (_).sent:(builder), bel(self(Id,_)) do delete(builder)+print(Id+ " received: someone is already builder").	
+	
+	% If I am the builder and someone asks, reply!
+	%forall (Name).sent?(builder), bel(builder, self(Id,_)) do (Name).send:(builder)+print("[Yell:] I am the builder"+Id).
+	
+	% If don't know nexus location yet, start asking Nexus
 	if not(bel(nexusPosition(_, _))) then (protossNexus).send?(nexusPosition).
 	
 	% If nexus location is told, insert it into the knowledge base

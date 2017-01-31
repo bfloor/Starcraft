@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.gdt.launch.GoalLaunchConfigurationType">
+<stringAttribute key="mainScript" value="Bram_messing_with_Protoss.mas2g"/>
+<stringAttribute key="nature" value="org.eclipse.gdt.nature"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Bram_messing_with_Protoss/Bram_messing_with_Protoss.mas2g"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="org.eclipse.dltk.launching.scriptProcessFactory"/>
+<stringAttribute key="project" value="Bram_messing_with_Protoss"/>
+</launchConfiguration>
