@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.gdt.launch.GoalLaunchConfigurationType">
+<booleanAttribute key="enableBreakOnFirstLine" value="false"/>
+<booleanAttribute key="enableDbgpLogging" value="false"/>
 <stringAttribute key="mainScript" value="Bram_messing_with_Protoss.mas2g"/>
 <stringAttribute key="nature" value="org.eclipse.gdt.nature"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
@@ -8,7 +10,10 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="C:\Users\Bram\Dropbox\TU Delft\2016-2017\IN4010-12 Artificial Intelligence Techniques\Starcraft\Bram_messing_with_Protoss\Output.consolelog"/>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="C:\Users\Bram\Dropbox\TU Delft\2016-2017\IN4010-12 Artificial Intelligence Techniques\Starcraft\Bram_messing_with_Protoss\starcraft.consolelog"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
 <stringAttribute key="process_factory_id" value="org.eclipse.dltk.launching.scriptProcessFactory"/>
 <stringAttribute key="project" value="Bram_messing_with_Protoss"/>
 </launchConfiguration>

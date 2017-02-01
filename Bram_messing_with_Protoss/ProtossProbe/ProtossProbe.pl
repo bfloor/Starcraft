@@ -33,6 +33,7 @@ assimilator/1.
 	enoughAssimilators :- aggregate_all(count, assimilator(_), Count),
 			     Count > 0.
 
+
 	
 	shouldMineVespene :- 	aggregate_all(count, workerActivity(_,gatheringGas), Count),
 			     	Count < 2,

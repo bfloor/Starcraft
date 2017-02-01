@@ -8,15 +8,13 @@ module ProtossProbeEvent {
 	% The generic percepts most units use
 	if true then GenericPercepts.
 	
-	%forall bel(friendly("Protoss Probe",probeId,_,_),self(Id,_)) do print("Friendly unit with ID " + probeId).
-	
-	%if bel(self(MyId,_)) then print("I found myself" + MyId).
-	
-	% if bel(workerActivity(Id, gatheringGas), not(testMineVespene)) then adopt(workerActivity(Id,gatheringMinerals)) + print ("Assimilator is full.").
-	% if bel(enoughAssimilators, assimilator(_), self(Id,_), shouldMineVespene) then adopt(workerActivity(Id, gatheringGas)) + print("Goal is to mine gas.").
-	
 	if bel(shouldMineVespene, self(MyId,_)) then print("Need to get gas").
 	
+	% Check if an other probe has become the gas collector
+	if bel(workerActivity(MyId,gatheringGas), friendly("Protoss Probe", Id,_,_), self(MyId,_), Id > MyId)
+		 then print("I am no longer the gas probe.") + adopt(workerActivity(MyId,gatheringMinerals)).
+	
+	% See if I need to be the gas collector
 	if bel(shouldMineVespene, self(MyId,_)), not(bel(friendly("Protoss Probe", Id,_,_), MyId < Id))
 		then adopt(workerActivity(MyId, gatheringGas)) + print("Goal is to mine gas.").
 	
@@ -26,8 +24,7 @@ module ProtossProbeEvent {
 		then insert(builder) + print("I believe I am the lowest ranked probe " + MyId).
 	if bel(builder, friendly("Protoss Probe", Id,_,_), self(MyId,_), Id < MyId) then delete(builder) + print("I am no longer the builder.").
 	
-	%forall percept(unit(true,"Protoss Probe",Id,_,_,_)), bel(self(MyId,_), MyId > Id) do print(MyId + "I sense lower ranked probe with ID ." +Id). 
-	
+		
 	% Update probestatus
 	if percept(workerActivity(Id,Z)), bel(self(Id,_), probeStatus(Id,X,Y), X\=Z) then delete(probeStatus(Id,X,Y))+insert(probeStatus(Id,Z,Y)) + print("Updated my status believe").
 	if bel(builder, probeStatus(Id,X,false)) then delete(probeStatus(Id,X,false)) + insert(probeStatus(Id,X,true)).

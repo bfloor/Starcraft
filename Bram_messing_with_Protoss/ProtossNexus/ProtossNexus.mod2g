@@ -7,7 +7,7 @@ module ProtossNexus {
 	if bel(minerals(X), X>=50, queueSize(N), N < 2) then {
 		
 		% If less then 8 workers exist, build a probe
-		if a-goal(unitAmount("Protoss Probe", 8)), bel(unitAmount("Protoss Probe", M), M < 8) then train("Protoss Probe"). 
+		if a-goal(unitAmount("Protoss Probe", Y)), bel(unitAmount("Protoss Probe", M), M < Y) then train("Protoss Probe"). 
 	} 
 	
 }

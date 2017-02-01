@@ -11,7 +11,6 @@ train/1,
 probe/2,
 done/2,
 nexusPosition/2,
-ready/1,
-phase2/1. %boolean to identify if game is in construction phase or war phase
+ready/1.
 
 allReady :- aggregate_all(count, ready(_), Count), Count > 5.
