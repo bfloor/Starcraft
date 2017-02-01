@@ -29,6 +29,6 @@ module ProtossProbe {
 	
 	% If goal to gather minerals, start gathering minerals from mineralfields near the nexus
 	if a-goal(workerActivity(Id, gatheringMinerals)), bel(mineralField(MinId,_,X,Y), nexusPosition(CX, CY), 
-		self(Id,_), distance(X,Y,CX,CY,L), L<25000)
+		self(Id,_), distance(X,Y,CX,CY,L), L<16)
 	then gather(MinId).
 }
