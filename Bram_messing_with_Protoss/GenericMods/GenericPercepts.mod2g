@@ -17,6 +17,11 @@ module GenericPercepts {
 	forall bel(unitAmount(Type,Count)),not(percept(unitAmount(Type,Count))) do delete(unitAmount(Type,Count)).
 	forall percept(unitAmount(Type,Count)), not(bel(unitAmount(Type,Count))) do insert(unitAmount(Type,Count)).
 	
-	if bel(unitAmount("Protoss Probe", X), X < 12, unitAmount("Protoss Zealot", Y), Y > 2, not(phase2(true)))
-		then insert(phase2(true)).
+	if not(bel(phase(_))) then insert(phase(1)).
+	
+	if bel(phase(Z), Z = 1, unitAmount("Protoss Probe", X), X < 12, unitAmount("Protoss Zealot", Y), Y > 12)
+		then delete(phase(Z)) + insert(phase(2)).
+		
+	if bel(phase(Z), Z = 2, unitAmount("Protoss Dragoon", X), X >= 3, unitAmount("Protoss Probe", Y), Y >= 12)
+		then delete(phase(Z)) + insert(phase(3)).
 }

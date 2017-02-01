@@ -1,0 +1,30 @@
+use ProtossProbe as knowledge.
+use "../GenericMods/GenericPredicates" as knowledge.
+use ProtossProbe as actionspec.
+
+module ProtossProbe {
+	
+	% If goal to make gateways and there is a constructionsite available, start making one
+	if a-goal(unitAmount("Protoss Gateway", 2)), bel(constructionSite(X,Y,true), minerals(M), M >= 150)
+		then build("Protoss Gateway", X, Y).
+	
+	% If goal to make Assimilator, then make one
+	if a-goal(unitAmount("Protoss Assimilator", N)), bel(vespeneGeyser(ID,Recources,X,Y), minerals(M), M>=100)
+		then build("Protoss Assimilator", X, Y).
+	
+	% If goal to make a pylon for supply, start making one
+	if a-goal(unitAmount("Protoss Pylon", N)), bel(constructionSite(X,Y,_), unitAmount("Protoss Pylon", P), P < N,
+	minerals(M), M >= 100,unitAmount("Protoss Zealot", Z), Z > 1) then build("Protoss Pylon", X, Y).
+	
+	% If goal to make first pylon and have enough resources, start making one
+	if a-goal(unitAmount("Protoss Pylon", 1)), bel(constructionSite(X,Y,false), unitAmount("Protoss Probe", Amount), Amount > 6,
+	minerals(M), M >= 100) then build("Protoss Pylon", X, Y).
+	
+	% If goal is to gather gas, do it you lazy ...
+	if a-goal(workerActivity(MyId,gatheringGas)), bel(self(MyId,_), assimilator(Id)) then gather(Id).
+	
+	% If goal to gather minerals, start gathering minerals from mineralfields near the nexus
+	if a-goal(workerActivity(Id, gatheringMinerals)), bel(mineralField(MinId,_,X,Y), nexusPosition(CX, CY), 
+		self(Id,_), distance(X,Y,CX,CY,L), L<25000)
+	then gather(MinId).
+}

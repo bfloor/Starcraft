@@ -69,6 +69,11 @@ module ProtossProbeEvent {
 	% Build pylons for supply
 	if bel(builder, unitAmount("Protoss Pylon", N), M is N +1, unitAmount("Protoss Gateway", 2), supply(CS, TS), TS - CS < 8) 
 		then adopt(unitAmount("Protoss Pylon", M)).
+		
+	% Build Cybernetics Core
+	
+	if bel(phase(Z), Z > 1, not(unitAmount("Protoss Cybernetics Core",_)))
+		then adopt(unitAmount("Protoss Cybernetics Core",1)).
 	
 	% If the worker is not busy yet, start gathering minerals
 	%if bel(not(busy), not(builder), self(Id, _))

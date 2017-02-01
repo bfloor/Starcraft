@@ -4,6 +4,10 @@ use ProtossProbe as actionspec.
 
 module ProtossProbe {
 	
+	% If goal to make Cybernetics Core and there is a constructionsite available, start making one
+	if a-goal(unitAmount("Protoss Cybernetics Core", 1)), bel(constructionSite(X,Y,true), minerals(M), M >= 200)
+		then build("Protoss Cybernetics Core", X, Y).
+	
 	% If goal to make gateways and there is a constructionsite available, start making one
 	if a-goal(unitAmount("Protoss Gateway", 2)), bel(constructionSite(X,Y,true), minerals(M), M >= 150)
 		then build("Protoss Gateway", X, Y).
