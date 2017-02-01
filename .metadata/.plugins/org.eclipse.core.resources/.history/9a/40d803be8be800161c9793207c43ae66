@@ -33,13 +33,10 @@ module ProtossZealotEvent {
 
 	if (Name).sent(ready(Id)), not(bel(ready(Id))) then insert(ready(Id)).	
 	
-	if bel(position(X1,Y1), groupLocation(X,Y), distance(X, Y, X1, Y1, D), D < 3000, self(Id,_))
-		then print("I am ready") + insert(ready(Id)) + (zealot).send(ready).
-	
-	%reply if ready
-	forall (Name).sent?(ready), bel(self(Id,_), ready(Id)) do (Name).send:(ready(Id)).
-	
-	if bel(allReady) then print("All aboard!") + insert(attack).
+	if bel(position(X1,Y1), groupLocation(X,Y), distance(X, Y, X1, Y1, D), D < 3000)
+		then {if true then print("I am ready").
+				forall (Name).sent?(ready(Id)), bel(self(MyId,_)) do (Name).send:(ready(MyId)) + print("Told I am ready to" + Name).}
+	if bel(allReady) then insert(attack).
 	
 	%%%%%%%%%%%%%%% ----------------------------------------- GOALS ---------------------------------------- %%%%%%%%%%%%%%%
 	
