@@ -39,4 +39,5 @@ launchpolicy{
 	when type = protossProbe launch protossProbe.
 	when type = protossGateway launch protossGateway.
 	when type = protossZealot launch protossZealot.
+	when type = protossMaroon launch protossZealot.
 	}
