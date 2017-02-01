@@ -18,6 +18,8 @@ module ProtossNexusEvent {
 	% If no goal to make an amount of units, and have less then 7 probes, adopt a goal to make 8 probes
 	if not(goal(unitAmount(_,_))), bel(unitAmount("Protoss Probe", X), X < 7) then adopt(unitAmount("Protoss Probe", 8)).
 	
+	if not(goal(unitAmount(_,X))), bel(X < 12) then adopt(unitAmount("Protoss Probe", 12)).
+	
 	%%%%%%%%%%%%%%% --------------------------------------- Messaging --------------------------------------- %%%%%%%%%%%%%%%
 	
 	% If nexus position is requested, send the nexus location

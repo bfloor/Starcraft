@@ -6,4 +6,5 @@ module ProtossGatewayInit {
 	
 	% Init resources percepts
 	if percept(resources(M, G, CS, TS)) then insert(minerals(M), gas(G), supply(CS, TS)).
+
 }

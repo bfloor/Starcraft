@@ -18,4 +18,8 @@ module ProtossNexusInit {
 	
 	% send location to probe
 	if percept(status(_,_,_,_,X, Y)) then insert(nexusPosition(X, Y)).
+	
+		
+	% Start phase is construction, where 8 probes are required
+	if true then insert(phase2(false)).
 }

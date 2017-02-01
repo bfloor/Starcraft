@@ -8,6 +8,7 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CAPTURE_IN_FILE" value="C:\Users\Bram\Dropbox\TU Delft\2016-2017\IN4010-12 Artificial Intelligence Techniques\Starcraft\Bram_messing_with_Protoss\Output.consolelog"/>
 <stringAttribute key="process_factory_id" value="org.eclipse.dltk.launching.scriptProcessFactory"/>
 <stringAttribute key="project" value="Bram_messing_with_Protoss"/>
 </launchConfiguration>
