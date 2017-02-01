@@ -29,12 +29,13 @@ assimilator/1.
 	% default distance check				
 	distance(X1,Y1,X2,Y2,D) :- D is sqrt((X2-X1)**2 + (Y2-Y1)**2).
 				
-	% Check if there is an assimilator available for mining
+	% example code for gas gathering handling 	%
+
 	enoughAssimilators :- aggregate_all(count, assimilator(_), Count),
 			     Count > 0.
 
 
-	% Check if probe should collect the gas
+	
 	shouldMineVespene :- 	aggregate_all(count, workerActivity(_,gatheringGas), Count),
 			     	Count < 2,
 			     	enoughAssimilators,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="104" environment="org.eclipse.dltk.core.environment.localEnvironment">
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="106" environment="org.eclipse.dltk.core.environment.localEnvironment">
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/emptyManager" timestamp="1484912015806" lastAccessTime="1485937851914">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/5.idx"/>
   </entries>
@@ -7,30 +7,15 @@
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus" timestamp="1484912015847" lastAccessTime="1485951875176">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/47.idx"/>
   </entries>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway" timestamp="1485880442419" lastAccessTime="1485954091383">
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway" timestamp="1485880442419" lastAccessTime="1485965064902">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/51.idx"/>
   </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/GenericMods" timestamp="1484912015819" lastAccessTime="1485951873961">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/53.idx"/>
   </entries>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe" timestamp="1484912015871" lastAccessTime="1485964436286">
-    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/55.idx"/>
-  </entries>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe/ProtossProbeEvent.mod2g" timestamp="1485947806321" lastAccessTime="1485951870943">
-    <attributes name="indexed" location="2838196607/2853616830/57.idx"/>
-  </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe/ProtossProbe.pl" timestamp="1485949830936" lastAccessTime="1485951867586"/>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway/ProtossGateway.pl" timestamp="1485938484133" lastAccessTime="1485951868972"/>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus/ProtossNexusEvent.mod2g" timestamp="1485947813859" lastAccessTime="1485951873089">
-    <attributes name="indexed" location="2838196607/1345748553/63.idx"/>
-  </entries>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus/ProtossNexus.mod2g" timestamp="1485941173139" lastAccessTime="1485951874617">
-    <attributes name="indexed" location="2838196607/1345748553/73.idx"/>
-  </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus/ProtossNexus.pl" timestamp="1485943620422" lastAccessTime="1485951869313"/>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus/ProtossNexusInit.mod2g" timestamp="1485943677042" lastAccessTime="1485951873460">
-    <attributes name="indexed" location="2838196607/1345748553/65.idx"/>
-  </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/GenericMods/GenericPredicates.pl" timestamp="1485947813933" lastAccessTime="1485951869950"/>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway/ProtossGateway.mod2g" timestamp="1485954090787" lastAccessTime="1485954091383"/>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossProbe" timestamp="1483965574845" lastAccessTime="1485954309436">
@@ -80,4 +65,7 @@
   </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossZealot/ProtossZealotEvent.mod2g" timestamp="1485963885692" lastAccessTime="1485963886287"/>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe/ProtossProbe.mod2g" timestamp="1485964435611" lastAccessTime="1485964436280"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe/ProtossProbeInit.mod2g" timestamp="1485965040527" lastAccessTime="1485965041449"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway/ProtossGatewayEvent.mod2g" timestamp="1485965064380" lastAccessTime="1485965064900"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossProbe/ProtossProbeEvent.mod2g" timestamp="1485965064397" lastAccessTime="1485965065010"/>
 </cache:CacheIndex>

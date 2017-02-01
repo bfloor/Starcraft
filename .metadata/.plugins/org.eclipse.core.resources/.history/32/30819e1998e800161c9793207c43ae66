@@ -71,9 +71,13 @@ module ProtossProbeEvent {
 		then adopt(unitAmount("Protoss Pylon", M)).
 		
 	% Build Cybernetics Core
+	
 	if bel(phase(Z), Z > 1, not(unitAmount("Protoss Cybernetics Core",_)))
 		then adopt(unitAmount("Protoss Cybernetics Core",1)).
-
+	
+	% If the worker is not busy yet, start gathering minerals
+	%if bel(not(busy), not(builder), self(Id, _))
+	%	then adopt(workerActivity(Id, gatheringMinerals)).
 	
 	% when idling, start mining minerals
 	if bel(workerActivity(Id,idling), self(Id,_))
@@ -91,6 +95,25 @@ module ProtossProbeEvent {
 				
 	%%%%%%%%%%%%%%% --------------------------------------- Messaging --------------------------------------- %%%%%%%%%%%%%%%
 	
+	% Ask everyone the status. Make sure probe replies. Handle returned messages. 
+%	if true then (protossProbe).send?(probeStatus) + print("Queried what ya all doing?").
+%	forall (Name).sent?(probeStatus), bel(probeStatus(Id,X,Y)) do (Name).send:(probeStatus(Id,X,Y)) + print("Sent " + Id + X + Y).
+%	forall (_).sent:(probeStatus(Id,X,Y)) do 
+%		{if bel(probeStatus(Id,I,J)), not(bel(X=I,Y=J)) then delete(probeStatus(Id,I,J)) + insert(probeStatus(Id,X,Y))+ print("Updated believe probeStatus from" + Id + X + Y).
+%		if not(bel(probeStatus(Id,_,_))) then insert(probeStatus(Id,X,Y))+ print("Inserted believe probeStatus from" + Id + X + Y).
+%		if true then print("Message received from" + Id + X + Y).}
+	
+	% If told to be builder, insert builder in knowledge base	
+	% if (_).sent(builder) then insert(builder).
+	
+	% If I am not the builder, ask who is it
+	%if bel(not(builder)) then (protossProbe).send?(builder) + print("Queried who is builder.") + insert(builder).
+	
+	% Check for messages about being builder
+	%forall (_).sent:(builder), bel(self(Id,_)) do delete(builder)+print(Id+ " received: someone is already builder").	
+	
+	% If I am the builder and someone asks, reply!
+	%forall (Name).sent?(builder), bel(builder, self(Id,_)) do (Name).send:(builder)+print("[Yell:] I am the builder"+Id).
 	
 	% If don't know nexus location yet, start asking Nexus
 	if not(bel(nexusPosition(_, _))) then (protossNexus).send?(nexusPosition).
