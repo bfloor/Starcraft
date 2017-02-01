@@ -1,0 +1,14 @@
+use ProtossGateway as knowledge.
+use ProtossGateway as actionspec.
+
+module ProtossGateway {
+	
+	% Keep making zealots if there are sufficient supplies
+	if a-goal(unitAmount("Protoss Zealot", 8)), bel(queueSize(N), N < 2, supply(CS, TS), (TS - CS) >= 4, minerals(M), M >= 100) 
+		then train("Protoss Zealot").
+	if a-goal(unitAmount("Protoss Dragoon", 50)), not(bel(unitAmount("Protoss Dragoon", _))) then train("Protoss Dragoon").
+	if a-goal(unitAmount("Protoss Dragoon", 50)), bel(unitAmount("Protoss Dragoon", X), unitAmount("Protoss Zealot", Y), X<Y) then train("Protoss Dragoon").
+	if a-goal(unitAmount("Protoss Zealot", 50)), bel(unitAmount("Protoss Dragoon", X), unitAmount("Protoss Zealot", Y), X<Y) then train("Protoss Zealot").
+
+	
+}
