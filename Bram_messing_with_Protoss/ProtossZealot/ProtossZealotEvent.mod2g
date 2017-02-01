@@ -33,8 +33,11 @@ module ProtossZealotEvent {
 
 	if (Name).sent(ready(Id)), not(bel(ready(Id))) then insert(ready(Id)).	
 	
-	if bel(position(X1,Y1), groupLocation(X,Y), distance(X, Y, X1, Y1, D), D < 3000, self(Id,_))
-		then print("I am ready") + insert(ready(Id)) + (zealot).send(ready).
+	if bel(position(X1,Y1), groupLocation(X,Y), distance(X, Y, X1, Y1, D), D < 10, self(Id,_))
+		then print("I am ready") + insert(ready(Id)).
+		
+	%forall bel(ready(Id), self(MyId,_)) do allother.send(ready(MyId)) + print("msg allother").
+	forall bel(ready(Id), self(MyId,_)) do all.send(ready(MyId)) + print("msg allother").
 	
 	%reply if ready
 	forall (Name).sent?(ready), bel(self(Id,_), ready(Id)) do (Name).send:(ready(Id)).
