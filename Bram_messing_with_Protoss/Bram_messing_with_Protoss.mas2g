@@ -23,6 +23,11 @@ define protossGateway as agent{
 	use ProtossGateway.ProtossGatewayInit as init module.
 	use ProtossGateway.ProtossGatewayEvent as event module.
 }
+define protossZealot as agent{
+	use ProtossZealot.ProtossZealot as main module.
+	use ProtossZealot.ProtossZealotInit as init module.
+	use ProtossZealot.ProtossZealotEvent as event module.
+}
 
 define emptyManager as agent {
 	use emptyManager.emptyManager as main module.
@@ -33,4 +38,5 @@ launchpolicy{
 	when type = protossNexus launch protossNexus.
 	when type = protossProbe launch protossProbe.
 	when type = protossGateway launch protossGateway.
+	when type = protossZealot launch protossZealot.
 	}

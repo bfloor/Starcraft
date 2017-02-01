@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ProtossZealot&apos; to &apos;Bram_messing_with_Protoss&apos;&#x0D;&#x0A;- Original project: &apos;ExampleBotProtoss&apos;&#x0D;&#x0A;- Destination element: &apos;Bram_messing_with_Protoss&apos;&#x0D;&#x0A;- Original element: &apos;ProtossZealot&apos;" description="Copy folder" element1="ProtossZealot" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1485954339937" target="/Bram_messing_with_Protoss" units="0" version="1.0"/>
+</session>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="78" environment="org.eclipse.dltk.core.environment.localEnvironment">
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/emptyManager/emptyManager.mod2g" timestamp="1484912250272" lastAccessTime="1485951869328">
-    <attributes name="indexed" location="2838196607/1604185823/25.idx"/>
-  </entries>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="102" environment="org.eclipse.dltk.core.environment.localEnvironment">
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/emptyManager" timestamp="1484912015806" lastAccessTime="1485937851914">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/5.idx"/>
   </entries>
@@ -10,7 +7,7 @@
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossNexus" timestamp="1484912015847" lastAccessTime="1485951875176">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/47.idx"/>
   </entries>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway" timestamp="1485880442419" lastAccessTime="1485951875131">
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway" timestamp="1485880442419" lastAccessTime="1485954091383">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/51.idx"/>
   </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/GenericMods" timestamp="1484912015819" lastAccessTime="1485951873961">
@@ -39,8 +36,51 @@
     <attributes name="indexed" location="2838196607/1345748553/65.idx"/>
   </entries>
   <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/GenericMods/GenericPredicates.pl" timestamp="1485947813933" lastAccessTime="1485951869950"/>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/Bram_messing_with_Protoss.mas2g" timestamp="1485530154172" lastAccessTime="1485951875274"/>
-  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss" timestamp="1485950915455" lastAccessTime="1485951875283">
-    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2304076118/77.idx"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossGateway/ProtossGateway.mod2g" timestamp="1485954090787" lastAccessTime="1485954091383"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossProbe" timestamp="1483965574845" lastAccessTime="1485954309436">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/79.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossGateway/ProtossGateway.mod2g" timestamp="1483965574821" lastAccessTime="1485954307894"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossGateway" timestamp="1483965574824" lastAccessTime="1485954310843">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/81.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossProbe/ProtossProbe.act2g" timestamp="1483965574840" lastAccessTime="1485954308346"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/Tassadar" timestamp="1483965574885" lastAccessTime="1485954308604">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/83.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossGateway/ProtossGatewayInit.mod2g" timestamp="1483965574825" lastAccessTime="1485954308799"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossGateway/ProtossGateway.act2g" timestamp="1483965574819" lastAccessTime="1485954309390"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossProbe/ProtossProbeInit.mod2g" timestamp="1483965574845" lastAccessTime="1485954309435"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossZealot" timestamp="1483965574853" lastAccessTime="1485954310578">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/85.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossAssimilator/ProtossAssimilator.act2g" timestamp="1483965574000" lastAccessTime="1485954310077"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossAssimilator" timestamp="1484666957972" lastAccessTime="1485954310832">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/87.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossAssimilator/ProtossAssimilator.mod2g" timestamp="1483965574000" lastAccessTime="1485954310114"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossNexus" timestamp="1483965574838" lastAccessTime="1485954310682">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/89.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossZealot/ProtossZealot.act2g" timestamp="1483965574849" lastAccessTime="1485954310578"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossNexus/ProtossNexus.act2g" timestamp="1483965574826" lastAccessTime="1485954310597"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss" timestamp="1484666873827" lastAccessTime="1485954310613">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2304076118/91.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossNexus/ProtossNexus.mod2g" timestamp="1483965574827" lastAccessTime="1485954310658"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/GenericMods/GenericPercepts.mod2g" timestamp="1483965574816" lastAccessTime="1485954310734"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/GenericMods" timestamp="1483965574817" lastAccessTime="1485954310735">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2560414651/93.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossAssimilator/ProtossAssimilatorEvent.mod2g" timestamp="1483965574000" lastAccessTime="1485954310765"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossAssimilator/ProtossAssimilatorInit.mod2g" timestamp="1483965574000" lastAccessTime="1485954310832"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/ExampleBotProtoss/ProtossGateway/ProtossGatewayEvent.mod2g" timestamp="1483965574823" lastAccessTime="1485954310843"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss" timestamp="1485954613856" lastAccessTime="1485954878170">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2304076118/97.idx"/>
+  </entries>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/Bram_messing_with_Protoss.mas2g" timestamp="1485954877371" lastAccessTime="1485954878170"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossZealot/ProtossZealot.mod2g" timestamp="1485956058801" lastAccessTime="1485956059334"/>
+  <entries path="C:/Users/Bram/Dropbox/TU Delft/2016-2017/IN4010-12 Artificial Intelligence Techniques/Starcraft/Bram_messing_with_Protoss/ProtossZealot" timestamp="1485954339918" lastAccessTime="1485957531296">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2051397664/101.idx"/>
   </entries>
 </cache:CacheIndex>
