@@ -1,0 +1,5 @@
+- Add NexusPosition to belief state of the nexus in the .pl file
+- Make the Nexus add its position to its beliefs in the initialization
+- Make the Nexus respond to position request in Event.mod2g
+- Make the Probe ask for the Nexus' position if unknown in Event.mod2g
+- Make the Probe add the position of the Nexus to its belief state in Event.mod2g
