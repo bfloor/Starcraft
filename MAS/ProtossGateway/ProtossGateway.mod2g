@@ -1,11 +1,17 @@
 use ProtossGateway as knowledge.
 use ProtossGateway as actionspec.
+use "../GenericMods/GenericPercepts" as module.
+use "../GenericMods/GenericPredicates" as knowledge.
+
 
 module ProtossGateway {
 	
 	% Keep making zealots if there are sufficient supplies
 	if a-goal(unitAmount("Protoss Zealot", 8)), bel(queueSize(N), N < 2, supply(CS, TS), (TS - CS) >= 4, minerals(M), M >= 100) 
 		then train("Protoss Zealot").
+	
+	% Always do something with plenty of resources!
+	if bel(phase(X), X>1, queueSize(N), N=0, minerals(M), M >= 200) then train("Protoss Zealot").
 	
 	% If nothing in believe state then:
 	if a-goal(unitAmount("Protoss Dragoon", 50)), bel(queueSize(N), N < 2, supply(CS, TS), (TS - CS) >= 4, minerals(M), M >= 125, gas(G), G>= 50), not(bel(unitAmount("Protoss Dragoon", _))) then train("Protoss Dragoon").

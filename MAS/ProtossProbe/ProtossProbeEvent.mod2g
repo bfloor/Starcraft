@@ -61,6 +61,10 @@ module ProtossProbeEvent {
 	% If no Gateways yet, build two of them	
 	if bel(builder, not(unitAmount("Protoss Gateway",_)), unitAmount("Protoss Pylon",_))
 		then adopt(unitAmount("Protoss Gateway", 2)).
+		
+	% Phase 3, build extra gateways
+	if bel(builder, phase(X), X>2, unitAmount("Protoss Gateway",Y), Y<4)
+		then adopt (unitAmount("Protoss Gateway", 4)).
 	
 		% If enough probes, then build assimilator
 	if bel(builder, not(unitAmount("Protoss Assimilator",_)), unitAmount("Protoss Probe", 6))
@@ -71,7 +75,7 @@ module ProtossProbeEvent {
 		then adopt(unitAmount("Protoss Pylon", M)).
 		
 	% Build Cybernetics Core
-	if bel(phase(Z), Z > 1, not(unitAmount("Protoss Cybernetics Core",_)))
+	if bel(builder, phase(Z), Z > 1, not(unitAmount("Protoss Cybernetics Core",_)))
 		then adopt(unitAmount("Protoss Cybernetics Core",1)).
 
 	
